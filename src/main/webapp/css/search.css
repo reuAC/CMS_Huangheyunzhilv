@@ -1,0 +1,316 @@
+
+.search-results-page {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.search-results-page .page-content-override {
+    padding-top: 30px;
+    padding-bottom: 60px;
+
+    background-color: #f4f6f8;
+}
+
+.search-results-page .search-results-outer-container {
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.search-results-page .search-container-override {
+    background-color: #fff;
+    padding: 30px 40px;
+
+
+}
+
+
+.search-results-page .search-header {
+    margin-bottom: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.search-results-page .search-query-display {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.search-results-page .search-query-display span {
+    color: #007aff;
+    font-weight: 600;
+}
+
+.search-results-page .search-results-count {
+    font-size: 0.9rem;
+    color: #6e6e73;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.search-results-page .search-again-form {
+    display: flex;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.search-results-page .search-input-again {
+    flex-grow: 1;
+    padding: 10px 15px;
+    font-size: 0.95rem;
+    background-color: #f0f2f5;
+    border: 1px solid transparent;
+    color: #1d1d1f;
+    border-radius: 6px 0 0 6px;
+    outline: none;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.search-results-page .search-input-again:focus {
+    background-color: #fff;
+    border-color: #007aff;
+}
+
+.search-results-page .btn-search-again {
+    padding: 10px 18px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #007aff;
+    border: 1px solid transparent;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    line-height: normal;
+    transition: background-color 0.2s ease;
+}
+
+.search-results-page .btn-search-again:hover {
+    background-color: #005ecb;
+}
+
+
+.search-results-page .search-results-list {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 60px;
+}
+
+.search-results-page .search-result-item {
+    padding: 20px 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+.search-results-page .search-result-item:not(:last-child) {
+    border-bottom: 1px solid #e9edf0;
+}
+
+.search-results-page .result-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+
+.search-results-page .result-title a {
+    color: #1d1d1f;
+    text-decoration: none;
+}
+
+.search-results-page .result-title a:hover {
+    color: #007aff;
+    text-decoration: none;
+}
+
+.search-results-page .result-meta {
+    font-size: 0.8rem;
+    color: #86868b;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.search-results-page .result-meta span + span::before {
+    content: "·";
+    margin: 0 6px;
+    color: #c7c7cc;
+}
+
+.search-results-page .result-snippet {
+    font-size: 0.9rem;
+    line-height: 1.65;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.search-results-page .result-snippet p {
+    margin: 0 0 0.5em 0;
+}
+
+.search-results-page .result-snippet p:last-child {
+    margin-bottom: 0;
+}
+
+
+.search-results-page .result-snippet strong,
+.search-results-page .result-snippet .highlight {
+    font-weight: 600;
+    color: #1d1d1f;
+    background-color: transparent;
+    padding: 0;
+}
+
+.search-results-page .result-url {
+    font-size: 0.8rem;
+    color: #6e6e73;
+    word-break: break-all;
+    display: block;
+    margin-top: 4px;
+    text-decoration: none;
+}
+
+.search-results-page .result-url:hover {
+    color: #007aff;
+    text-decoration: none;
+}
+
+
+.search-results-page .no-results-found {
+    text-align: center;
+    padding: 30px 0;
+    color: #6e6e73;
+    font-size: 1rem;
+    margin-top: 0;
+
+}
+
+.search-results-page .no-results-found p {
+    margin-bottom: 10px;
+}
+
+.search-results-page .no-results-found ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 0.9rem;
+}
+
+.search-results-page .no-results-found ul li {
+    margin-bottom: 6px;
+    list-style-type: none;
+}
+
+
+.search-results-page .pagination {
+    margin-top: 30px;
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+.search-results-page .pagination ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.search-results-page .pagination li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.search-results-page .pagination .page-link {
+    display: inline-block;
+    padding: 7px 12px;
+    color: #007aff;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    background-color: transparent;
+    font-size: 0.85rem;
+    font-weight: 500;
+    min-width: 32px;
+    text-align: center;
+    line-height: normal;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.search-results-page .pagination .page-link:hover {
+    background-color: #e9f2ff;
+    color: #005ecb;
+    text-decoration: none;
+}
+
+.search-results-page .pagination .page-link.current {
+    background-color: #007aff;
+    color: #fff;
+    font-weight: 600;
+}
+
+.search-results-page .pagination .page-link.disabled {
+    color: #aeaeb2;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.search-results-page .pagination .page-link.ellipsis {
+    background-color: transparent;
+    color: #aeaeb2;
+    padding: 7px 4px;
+}
+
+
+@media (max-width: 992px) {
+    .search-results-page .search-results-outer-container {
+        max-width: 95vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .search-results-page .search-results-outer-container {
+        max-width: 100%;
+    }
+
+    .search-results-page .search-container-override {
+        padding: 20px;
+    }
+
+    .search-results-page .search-query-display {
+        font-size: 1.7rem;
+    }
+
+    .search-results-page .search-again-form {
+        flex-direction: column;
+    }
+
+    .search-results-page .search-input-again,
+    .search-results-page .btn-search-again {
+        border-radius: 6px;
+    }
+
+    .search-results-page .result-title {
+        font-size: 1.15rem;
+    }
+
+    .search-results-page .result-snippet {
+        font-size: 0.85rem;
+    }
+
+    .search-results-page .pagination .page-link {
+        padding: 6px 10px;
+    }
+}
+
+body > div > div.basic.page-content.search-results-page > div > div > div > ul {
+    margin-top: 10px;
+}
